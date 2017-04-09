@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    -webkit-padding-start: 0 !important;
+}
+
+ul.img-list {
+
+}
+
+.img-list li{
+    float: left;
+}
+.img-list li img {
+    max-height: 30rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.notifications {
+    font-weight: bold;
+    padding: 1rem;
+}

@@ -5,16 +5,72 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <title>SIFACProfileViewer</title>
+        <link rel="stylesheet" href="https://cdn.honokak.osaka/honoka/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/styles.css"/>
     </head>
     <body>
-        test
+        <div class="container">
+            <div class="row">
+                <h1>SIFACProfileViewer</h1>
+                <span>アケフェスのプロフィールカードを整理するアプリ</span>
+                <a href="https://github.com/tanaka-lovelive2ch/SIFACProfileViewer">
+                    Source code
+                </a>
+                <div class="notifications bg-danger text-danger">
+                    <ul>
+                        <li>実は筐体で試したことはないので読み込めるかは不明です。</li>
+                        <li>タブレットだと画面が大きいので左下とかにカードを寄せて撮影すればいいかもしれません。</li>
+                        <li>現状iOS対応はありません。Macを持っていないので開発できません。Macを持っている人がiOS対応してくれれば。</li>
+                    </ul>
+                </div>
+                <span>Androidは使う人がいるなら要望・バグ修正は直接投げてくれれば対応するかもしれません。</span>
+            </div>
 
-        <h2>Releases</h2>
-        <ul>
-            <li>
-                <a href="https://drive.google.com/file/d/0BykqtdzVMyetQVRKQzhqZ1d4OEk/view?usp=sharing">0.01</a>
-            </li>
-        </ul>
-        
+            <div class="row">
+                <h2>機能</h2>
+                <h3>キャラ名、ユニット名、学年でのフィルタリング</h3>
+                現状これしかできませんごめんね。作者が必要になったら実装するかPR投げてくれれば適宜マージします。
+
+                <h3>Tips</h3>
+                <ul>
+                    <li>撮影するときには画面の縦横に気をつけてください。</li>
+                    <li>一覧から選択した画像を長おしすると削除できます。</li>
+                </ul>
+            </div>
+            
+            <div class="row">
+                <h2>Screenshots</h2>
+                <ul class="img-list clearfix">
+                    <li>
+                        <img src="https://lh5.googleusercontent.com/krNBFo-0_bQvyumUOSJBpsnAi5skur8IGobsKvagdovZcpaDMKyELRxi7wPI6B13PFUD03YGMnBPsh8=w1280-h934-rw"/>
+                    </li>
+                    <li>
+                        <img src="https://lh6.googleusercontent.com/ou1irRqLmcE3fjIrTIK9t-7TJM5mK5-nXfHlUO4XXzaNJbFLErnqZ2XJyITAHzWo8kyVL46hQnh8nyo=w1280-h934-rw"/>
+                    </li>
+                    <li>
+                        <img src="https://lh5.googleusercontent.com/ea-Hy8yt4CXdggACA1Uii8QZgo-Y5DzzRNRnmGonnQH9kkAvnHmze7TgWbcOuEQbClxSENR5RwVExc4=w1280-h934-rw"/>
+                    </li>
+                    <li>
+                        <img src="https://lh5.googleusercontent.com/fqk-S7ACS5-DGKvmzgW259LfYueL9tzai7SQC7cBF8zZJe37sCGBiOJgb57erw5na2R6tOpN8k0NArc=w1280-h934-rw"/>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <h2>Releases</h2>
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://drive.google.com/open?id=0BykqtdzVMyetNVFwN2JNUmstS3M">0.01 (8MB)</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <h2>既知のバグ</h2>
+                <ul>
+                    <li>一覧中最後のプロフィールを削除すると真っ白画面になる。backボタンで戻れます。</li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
